@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+Theme Name: Productly Child
+Template: productly
+Author: Vilhoprogramming
+Description: Productly is a clean and Modern WordPress Theme. Productly is best suited for product websites &amp; Landing Pages etc. This is a business template that is help full for online presence for Corporate Business. Short said Productly is a mix of a landing page and a blog! It is a new clean responsive corporate, business and agency WordPress blogging theme. If you are an author, writer, business owner or blogger who likes to blog and write about things such as fashion, music, technology, travel, lifestyle, food, business, finance, videos, books, entertainment or perhaps need a personal journal, then this light responsive business theme is made for you. This coporate agency theme also has lots of sidebar widgets, so you can use ads like adsense and drive your blog or portfolio with affiliate marketing. Productly is seo optimized and will do wonders in Googles and Bings search results, so it is also great for a modern corporate review magazine with editorial articles and posts. It’s easy to get started with blogging and writing because the theme is easy to set up, so you can get creative and own a nice minimalistic single page or one pager with a blog incorperated fast. This is the best landing page and blog theme, it works on mobile phones, tablets and desktop computers. So start writing your pages and start your own business, agency or finance website today with our awesome fast and light weight landing page theme!
+Tags: two-columns,one-column,right-sidebar,flexible-header,custom-background,custom-colors,custom-header,custom-menu,featured-images,footer-widgets,front-page-post-form,sticky-post,theme-options,threaded-comments,translation-ready,blog,portfolio,news
+Version: 3.3.1552295106
+Updated: 2019-03-11 09:05:06 */
+
+/* Tekstredigering */
+body {
+	font-family: 'Work Sans', sans-serif;
+	color: #303030;
+	background-color: #f7f7f7;
+}
+
+.entry-title {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 600;
+}
+
+.page #main h1 {
+	font-size: 2em;
+	color: #24a67b;
+	font-weight: 600;
+}
+
+h2 {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
+}
+
+h4 {
+	font-family: 'Work Sans', sans-serif;
+}
+
+/* Navigation Bar */
+nav#site-navigation {
+	background-color: #40d6a5;
+	height: 100px;
+}
+
+.menu-image {
+	height: 75px;
+	width: 75px;
+}
+
+.menu li {
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+a .menu-image-title:hover,
+.current_page_item a .menu-image-title {
+	color: #24a67b;
+}
+
+.menu-image-title {
+	font-size: 20px;
+	color: #f7f7f7;
+	padding-left: 2em;
+}
+
+div#top-search {
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+/* Forside */
+
+b, strong {
+	color: #24a67b;
+}
+
+.has-vivid-green-cyan-background-color.has-vivid-green-cyan-background-color {
+	background-color: #40d6a5;
+}
+
+.has-vivid-green-cyan-background-color.has-vivid-green-cyan-background-color:hover {
+	background-color: #24a67b;
+}
+
+.wp-block-button__link {
+    background-color: #40d6a5;
+}
+
+.wp-block-button__link:hover {
+    background-color: #24a67b;
+}
+
+/* Fjerne headeren */
+
+.header-container {
+    margin-top: 50px;
+    padding: 60px 0;
+    display: none;
+    float: left;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Footer */
+.footer-widgets-wrapper {
+	background-color: #40d6a5;
+}
+
+footer .site-info {
+	background: #40d6a5;
+}
+
+footer .container #text {
+	color: #24a67b;
+}
+
+.confit-phone {
+	color: #fff;
+}
+
+/* Kontakt */
+/* simble */
+.fl-photo-content img {
+    max-width: 50%; 
+}
+/* Send knap */
+#nf-field-8 {
+	float: right;
+	margin-right: 15px;
+	font-size: 18px;
+	background-color: #40d6a5;
+	color: #fff; 			/* tekst farve */
+	border-radius: 28px;	
+	padding: 5px 25px;		/* knap størrelse */
+	}
+
+#nf-field-8:hover{
+	background-color: #24a67b;
+	}
